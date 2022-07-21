@@ -2,6 +2,8 @@
 
 alura-stickers/.vscode
 .vscode/*
+.vscode
+.vscode
 
 alura-stickers/bin
 alura-stickers/output/*.png
