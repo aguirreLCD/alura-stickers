@@ -1,39 +1,11 @@
-alura-stickers/bin
 
-alura-stickers/bin/*
-
-bin/
-
-*bin
-
-/bin
-
-*/bin
-
-bin/*
-
-bin/
-
-bin*
-
-.class
+# Java class files
 *.class
 
-bin/*.class
-bin/*
-
-bin/App.class
-
-bin/JsonParser.class
-
-bin/StickersGenerator.class
-
-
-alura-stickers/bin
-
-DS_Store
-
-bin
+# Generated files
+bin/
+gen/
+out/
 
 
 
@@ -76,9 +48,3 @@ alura-stickers/.DS_Store
 .env.local
 
 
-
-alura-stickers/bin/*.class
-bin/*.class
-*.class
-bin/
-*bin
