@@ -1,0 +1,27 @@
+
+
+alura-stickers/.vscode
+alura-stickers/bin
+alura-stickers/output/*.png
+
+alura-stickers/oop.md
+alura-stickers/stickersgenerator.md
+
+alura-stickers/.DS_Store
+
+.DS_Store
+
+.vscode/*
+
+.env
+.env.local
+
+
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+
+
