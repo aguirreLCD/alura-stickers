@@ -4,9 +4,7 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
 import java.io.File;
-// import java.io.FileInputStream;
 import java.io.InputStream;
-// import java.net.URL;
 
 import javax.imageio.ImageIO;  
 
@@ -23,7 +21,6 @@ public class StickersGenerator {
 
         // image will be read in the App.java 
 
-
         BufferedImage originalImage = ImageIO.read(inputStream);
 
         // create new img (blank) in memory with transparency and new size
@@ -38,24 +35,22 @@ public class StickersGenerator {
         graphics.drawImage(originalImage, 0, 0, null);
 
         // style (set) font, font size, font color
-        var font = new Font(Font.SANS_SERIF, Font.BOLD, 33);
+        var font = new Font(Font.SANS_SERIF, Font.BOLD, 66);
         graphics.setColor(Color.MAGENTA);
         graphics.setFont(font);
         
         // write a text in the new img (movie picture + blank img)
-        graphics.drawString("Number 1", 50, newHeight - 100);
+        graphics.drawString("Number 1", 150, newHeight - 100);
         
         // "write" (save) new img (sticker) in a file
         ImageIO.write(newImage, "png", new File("output/" + fileName));
         // ImageIO.write(newImage, "png", new File("output/sticker1.png"));
-
     }
     // test
     // public static void main(String[] args) throws Exception {
     //     var generator = new StickersGenerator();
     //     generator.create();        
     // }
-
-    // App.java will call the StickGenerator class
+    // App.java will call the StickersGenerator class
     
 }

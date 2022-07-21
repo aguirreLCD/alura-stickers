@@ -27,7 +27,7 @@ lib/
 
 
 alura-stickers/input/*
-input/*
+input/*.md
 input/
 *input
 
