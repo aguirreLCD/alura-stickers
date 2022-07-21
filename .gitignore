@@ -3,12 +3,12 @@
 alura-stickers/.vscode
 alura-stickers/bin
 alura-stickers/output/*.png
-
+output/*.png
 alura-stickers/oop.md
 alura-stickers/stickersgenerator.md
 
 alura-stickers/.DS_Store
-
+*.png
 .DS_Store
 
 .vscode/*
