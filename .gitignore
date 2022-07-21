@@ -1,8 +1,44 @@
+alura-stickers/bin
+
+alura-stickers/bin/*
+
+bin/
+
+*bin
+
+/bin
+
+*/bin
+
+bin/*
+
+bin/
+
+bin*
+
+.class
+*.class
+
+bin/*.class
+bin/*
+
+bin/App.class
+
+bin/JsonParser.class
+
+bin/StickersGenerator.class
+
+
+alura-stickers/bin
+
+DS_Store
+
+bin
+
 
 
 alura-stickers/.vscode
 .vscode/*
-.vscode
 .vscode
 
 
@@ -18,18 +54,6 @@ lib/*.png
 lib/
 *lib
 
-alura-stickers/bin/
-bin/*.png
-*.png
-bin/
-*bin
-alura-stickers/bin
-/bin
-*/bin
-bin/*
-bin/
-bin*
-bin
 
 alura-stickers/input/*.png
 input/*.png
@@ -46,10 +70,15 @@ alura-stickers/.DS_Store
 /.DS_Store*
 .DS_Store*
 
-# local env files
+
 .env*.local
 .env
 .env.local
 
 
 
+alura-stickers/bin/*.class
+bin/*.class
+*.class
+bin/
+*bin
