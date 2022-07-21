@@ -40,7 +40,7 @@ public class StickersGenerator {
         graphics.setFont(font);
         
         // write a text in the new img (movie picture + blank img)
-        graphics.drawString("Number 1", 150, newHeight - 100);
+        graphics.drawString("Nasa API", 150, newHeight - 100);
         
         // "write" (save) new img (sticker) in a file
         ImageIO.write(newImage, "png", new File("output/" + fileName));
