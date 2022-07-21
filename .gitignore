@@ -5,13 +5,38 @@ alura-stickers/.vscode
 .vscode
 .vscode
 
-alura-stickers/bin
 
 alura-stickers/output/*.png
 output/*.png
 *.png
 output/
 *output
+
+alura-stickers/lib/*.png
+lib/*.png
+*.png
+lib/
+*lib
+
+alura-stickers/bin/
+bin/*.png
+*.png
+bin/
+*bin
+alura-stickers/bin
+/bin
+*/bin
+bin/*
+bin/
+bin*
+bin
+
+alura-stickers/input/*.png
+input/*.png
+*.png
+input/
+*input
+
 
 
 alura-stickers/.DS_Store
