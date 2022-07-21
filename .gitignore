@@ -4,9 +4,9 @@
 
 # Generated files
 bin/
-gen/
-out/
-
+bin/*.class
+alura-stickers/bin
+/bin
 
 
 alura-stickers/.vscode
@@ -20,16 +20,14 @@ output/*.png
 output/
 *output
 
-alura-stickers/lib/*.png
-lib/*.png
-*.png
+alura-stickers/lib/*
+lib/*
 lib/
 *lib
 
 
-alura-stickers/input/*.png
-input/*.png
-*.png
+alura-stickers/input/*
+input/*
 input/
 *input
 
