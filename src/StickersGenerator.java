@@ -35,12 +35,12 @@ public class StickersGenerator {
         graphics.drawImage(originalImage, 0, 0, null);
 
         // style (set) font, font size, font color
-        var font = new Font(Font.SANS_SERIF, Font.BOLD, 66);
+        var font = new Font(Font.SANS_SERIF, Font.BOLD, 42);
         graphics.setColor(Color.MAGENTA);
         graphics.setFont(font);
         
         // write a text in the new img (picture + blank img)
-        graphics.drawString("IMDB API", 150, newHeight - 100);
+        graphics.drawString("SPRING API", 50, newHeight - 100);
         
         // "write" (save) new img (sticker) in a file
         ImageIO.write(newImage, "png", new File(fileName));

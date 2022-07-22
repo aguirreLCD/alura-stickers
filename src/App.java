@@ -7,25 +7,32 @@ public class App {
         // System.out.println("Hello, World!");
 
         // Access IMDB API (top 250 movies), by HTTP conection (GET protocol), to get the data
-        String url = "https://imdb-api.com/en/API/Top250Movies/k_isk10nto";
+        // String url = "https://imdb-api.com/en/API/Top250Movies/k_isk10nto";
         
         // Access NASA API, by HTTP conection (GET protocol), to get the data
         // String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD";
 
+        // Access SPRING API languages, by HTTP conection (GET protocol), to get the data
+        String url = "http://localhost:8080/languages";
+        
         var fetchedClient = new FetchClient();
         String infoJson = fetchedClient.requestData(url);
         
-        // Show data NASA
+        // Show data NASA API
         // NasaContentExtractor extractor = new NasaContentExtractor();
         // List<Content> contents = extractor.ContentExtractor(infoJson);
 
-        // Show data IMDB
-        ImdbContentExtractor extractor = new ImdbContentExtractor();
+        // Show data IMDB API
+        // ImdbContentExtractor extractor = new ImdbContentExtractor();
+        // List<Content> contents = extractor.contentExtractor(infoJson);
+
+        // Show data SPRING API
+        SpringContentExtractor extractor = new SpringContentExtractor();
         List<Content> contents = extractor.contentExtractor(infoJson);
 
         var generator = new StickersGenerator();
  
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 3; i++) {
 
             Content content = contents.get(i);
 
