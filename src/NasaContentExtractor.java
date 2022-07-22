@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class NasaContentExtractor {
+public class NasaContentExtractor implements ContentExtractor {
 
-    public List<Content> ContentExtractor(String infoJson) {
+    public List<Content> contentExtractor(String infoJson) {
         // Parse data: extract important info
         var parser = new JsonParser();
 

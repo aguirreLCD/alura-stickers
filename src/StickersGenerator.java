@@ -30,7 +30,7 @@ public class StickersGenerator {
 
         BufferedImage newImage = new BufferedImage(width, newHeight, BufferedImage.TRANSLUCENT);
 
-        // copy original img (movie picture) to the new translucid img (in memory)
+        // copy original img (picture) to the new translucid img (in memory)
         Graphics2D graphics = (Graphics2D) newImage.getGraphics();
         graphics.drawImage(originalImage, 0, 0, null);
 
@@ -39,7 +39,7 @@ public class StickersGenerator {
         graphics.setColor(Color.MAGENTA);
         graphics.setFont(font);
         
-        // write a text in the new img (movie picture + blank img)
+        // write a text in the new img (picture + blank img)
         graphics.drawString("IMDB API", 150, newHeight - 100);
         
         // "write" (save) new img (sticker) in a file

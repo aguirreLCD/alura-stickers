@@ -9,7 +9,7 @@ public class App {
         // Access IMDB API (top 250 movies), by HTTP conection (GET protocol), to get the data
         String url = "https://imdb-api.com/en/API/Top250Movies/k_isk10nto";
         
-        // Access API, by HTTP conection (GET protocol), to get the data
+        // Access NASA API, by HTTP conection (GET protocol), to get the data
         // String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD";
 
         var fetchedClient = new FetchClient();
@@ -21,7 +21,7 @@ public class App {
 
         // Show data IMDB
         ImdbContentExtractor extractor = new ImdbContentExtractor();
-        List<Content> contents = extractor.ContentExtractor(infoJson);
+        List<Content> contents = extractor.contentExtractor(infoJson);
 
         var generator = new StickersGenerator();
  
@@ -37,8 +37,6 @@ public class App {
 
             System.out.println(content.getTitle());
             System.out.println();
-
-            
         }
     }
 }
