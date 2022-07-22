@@ -6,7 +6,7 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 
 // request / response 
-// send requests and retrieve resopnses 
+// send requests and retrieve responses 
 
 public class FetchClient {
 
