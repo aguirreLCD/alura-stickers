@@ -13,11 +13,14 @@ public class App {
         // String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD";
 
         // Access SPRING API languages, local host
-        String url = "http://localhost:8080/languages";
+        // String url = "http://localhost:8080/languages";
+
+        // Access API from HEROKU
+        String url = "https://alura-api-languages.herokuapp.com/languages";
         
         var fetchedClient = new FetchClient();
         String infoJson = fetchedClient.requestData(url);
-        
+         
         // Show data NASA API
         // NasaContentExtractor extractor = new NasaContentExtractor();
 
@@ -32,7 +35,7 @@ public class App {
 
         var generator = new StickersGenerator();
  
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 5; i++) {
 
             Content content = contents.get(i);
 
