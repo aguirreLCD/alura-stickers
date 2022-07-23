@@ -12,7 +12,7 @@ public class App {
         // Access NASA API, by HTTP conection (GET protocol), to get the data
         // String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD";
 
-        // Access SPRING API languages, by HTTP conection (GET protocol), to get the data
+        // Access SPRING API languages, local host
         String url = "http://localhost:8080/languages";
         
         var fetchedClient = new FetchClient();
@@ -20,14 +20,14 @@ public class App {
         
         // Show data NASA API
         // NasaContentExtractor extractor = new NasaContentExtractor();
-        // List<Content> contents = extractor.ContentExtractor(infoJson);
 
         // Show data IMDB API
         // ImdbContentExtractor extractor = new ImdbContentExtractor();
-        // List<Content> contents = extractor.contentExtractor(infoJson);
 
         // Show data SPRING API
         SpringContentExtractor extractor = new SpringContentExtractor();
+
+        // Show data from API
         List<Content> contents = extractor.contentExtractor(infoJson);
 
         var generator = new StickersGenerator();

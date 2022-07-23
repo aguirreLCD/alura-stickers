@@ -98,19 +98,19 @@ https://start.spring.io/
 
 Maven:
 https://maven.apache.org/download.cgi
-#
+
 
 https://www.alura.com.br/conteudo/maven-gerenciamento-dependencias-build-aplicacoes-java
 
 Postman:
 https://www.postman.com/
-#
+
 
 https://www.youtube.com/watch?v=op81bMbgZXs
 
 MongoDB:
 https://www.mongodb.com/cloud/atlas/register
-#
+
 
 https://www.hipsters.tech/mongodb-hipsters-ponto-tech-305/
 
@@ -122,7 +122,6 @@ https://www.alura.com.br/artigos/stickers-dev-aluraverso-whatsapp-telegram
 
 REST:
 https://www.youtube.com/watch?v=weQ8ssA6iBU
-#
 
 https://www.alura.com.br/artigos/rest-conceito-e-fundamentos
 
