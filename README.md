@@ -40,7 +40,7 @@
     - [x] Start a Java Project with Spring Initializer;
     - [x] Config dependencies for Web and MongoDB;
     - [x] pom.xml is like the package.json, requeriments.txt....
-    - [x] Maven is like the node_modules...
+    - [x] Maven is like the npm, node_modules...
     - [x] jar is the "zip" for builded Java projects (to go to deploy);
     - [x] Project follow the MVC architecture;
     - [x] Rest Controller notation to use HTTP protocol (GET, POST, PUT, DELETE methods);
@@ -55,9 +55,10 @@
 <!-- ### Take a look at 4º day results -->
 
  - 5º day
-   - [x] Cloud deployment: deploy backend project to heroku;
+   - [x] Cloud deployment: deploy backend project to Heroku;
    - [x] Heroku have a good integration with Spring, Maven...Java world;
-   - [x] Install heroku cli;
+   - [x] Install Heroku CLI;
+   - [x] Deploy using Heroku Git;
    - [x] Stickers generated from the Heroku API;
 
 <!-- ### Take a look at 5º day results -->

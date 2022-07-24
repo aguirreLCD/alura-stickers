@@ -19,6 +19,7 @@ Criar um gerador de figurinhas explorando outras bibliotecas nativas do Java, pa
 
 ### Desafios 
     -[] Ler a documentação da classe abstrata InputStream.
+    
     -[] Centralizar o texto na figurinha.
 
     -[] Fazer um pacote no Whatsapp e/ou Telegram com as suas próprias figurinhas!
@@ -26,7 +27,9 @@ Criar um gerador de figurinhas explorando outras bibliotecas nativas do Java, pa
     -[] Criar diretório de saída das imagens, se ainda não existir.
 
     -[] Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes.
+
     -[] Colocar uma imagem de você que está fazendo esse curso sorrindo, fazendo joinha!
+
     -[] Colocar contorno (outline) no texto da imagem.
 
     -[] Tratar as imagens retornadas pela API do IMDB para pegar uma imagem maior ao invés dos thumbnails. Opções: pegar a URL da imagem e remover o trecho mostrado durante a aula ou consumir o endpoint de posters da API do IMDB (mais trabalhoso), tratando o JSON retornado.
@@ -76,4 +79,4 @@ Tornar nossa aplicação acessível por qualquer pessoa, fazendo o deploy na nuv
 
     -[] Implementar algum mecanismo de votação na API, para que outros amigos votem nas linguagens preferidas para que se possa fazer um ranking;
 
-    -[] Desafio supremo: Evoluir o projeto das três primeiras aula para que ele gere um bundle de stickers, para que se possa fazer o download e já incluir vários stickers no WhatsApp; Usar os conhecimentos aprendidos em alguma imersão React da Alura e fazer uma aplicação front-end para gerar esse bundle, onde possa se passar a URL do conteúdo e já visualizar os stickers;
+    -[] Desafio supremo: Evoluir o projeto das três primeiras aulas para que ele gere um bundle de stickers, para que se possa fazer o download e já incluir vários stickers no WhatsApp; Usar os conhecimentos aprendidos em alguma imersão React da Alura e fazer uma aplicação front-end para gerar esse bundle, onde possa se passar a URL do conteúdo e já visualizar os stickers;
