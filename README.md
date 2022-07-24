@@ -44,7 +44,7 @@
     - [x] jar is the "zip" for builded Java projects (to go to deploy);
     - [x] Project follow the MVC architecture;
     - [x] Rest Controller notation to use HTTP protocol (GET, POST, PUT, DELETE methods);
-    - [x] Notation in like metadata in other languages;
+    - [x] Notation is like metadata in other languages;
     - [x] Spring projects return Json by default;
   - [x] Connect to MongoDB Atlas (NoSQL db):
     - [x] Create a Project;
